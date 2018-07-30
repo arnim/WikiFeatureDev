@@ -1,0 +1,10 @@
+s_revision	s_author	t_revision	t_author	deleted(-,out)	undo_reintro(-,out)	undo_delete(-,in)	reintroduced(+,in)	redeleted(+,out)	oadds(=,in)
+1	Editor B	0	Editor A	['a', 'is']	[]	[]	[]	[]	8
+2	Editor C	1	Editor B	['a', 'tree', 'was', 'standing', 'close', '!']	[]	[]	[]	[]	0
+3	Editor D	1	Editor B	[]	[]	[]	['a', 'tree', 'was', 'standing', 'close', '!']	[]	3
+3	Editor D	2	Editor C	[]	[]	['a', 'tree', 'was', 'standing', 'close', '!']	[]	[]	3
+4	Editor C	3	Editor D	['real']	['close', '!']	[]	[]	[]	3
+5	Editor E	3	Editor D	[]	[]	[]	['close', '!', 'real']	[]	0
+5	Editor E	4	Editor C	['nearby', '.', 'sure']	[]	['close', '!', 'real']	[]	[]	0
+6	Editor C	5	Editor E	[]	['close', '!', 'real']	['nearby', '.']	[]	[]	1
+7	Editor C	5	Editor E	[]	[]	['sure']	['close', '!']	['nearby', '.']	0
