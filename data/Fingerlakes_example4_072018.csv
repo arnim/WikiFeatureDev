@@ -1,0 +1,10 @@
+s_revision,s_author,t_revision,t_author,"deleted(-,out)","undo_reintro(-,out)","undo_delete(-,in)","reintroduced(+,in)","redeleted(+,out)","oadds(=,in)",negativity,received_neg_actions
+1,Editor B,0,Editor A,"['a', 'is']",[],[],[],[],8,0.20,0.00
+2,Editor C,1,Editor B,"['a', 'tree', 'was', 'standing', 'close', '!']",[],[],[],[],0,1.00,0.00
+3,Editor D,1,Editor B,[],[],[],"['a', 'tree', 'was', 'standing', 'close', '!']",[],3,0.00,0.00
+3,Editor D,2,Editor C,[],[],"['a', 'tree', 'was', 'standing', 'close', '!']",[],[],3,0.67,0.00
+4,Editor C,3,Editor D,['real'],"['close', '!']",[],[],[],3,0.50,6.00
+5,Editor E,3,Editor D,[],[],[],"['close', '!', 'real']",[],0,0.00,0.00
+5,Editor E,4,Editor C,"['nearby', '.', 'sure']",[],"['close', '!', 'real']",[],[],0,1.00,0.00
+6,Editor C,5,Editor E,[],"['close', '!', 'real']","['nearby', '.']",[],[],1,0.83,6.00
+7,Editor C,5,Editor E,[],[],['sure'],"['close', '!']","['nearby', '.']",0,0.20,6.00
