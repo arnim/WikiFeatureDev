@@ -1,0 +1,28 @@
+name: example-environment
+channels:
+  - ostrokach-forge
+  - defaults
+  - conda-forge 
+  - pkgw-forge
+  - pkgw/label/superseded 
+  - anaconda
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - boost
+  - cgal
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+  - gtk3
+  - pygobject
+  - networkx
+  - cairomm
+  - sparsehash
+  - graph-tool == 2.27
